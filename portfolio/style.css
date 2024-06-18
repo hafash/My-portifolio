@@ -1,0 +1,1094 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+    list-style: none;
+}
+
+.main {
+    width: 100%;
+    background-color: #080708fd;
+
+}
+
+.home {
+    height: 100vh;
+    width: 100%;
+    padding-top: 80px;
+}
+
+nav {
+    position: fixed;
+    background-color: #24262b;
+    height: 60px;
+    width: 100%;
+    z-index: 5;
+}
+
+label.logo {
+    line-height: 60px;
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 0 8%;
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 40px;
+    line-height: 60px;
+    display: block;
+
+
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 20px;
+    margin: 14px 42px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: Ariel;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #02A9EA;
+    transition: all 0.5s ease;
+}
+
+
+.container {
+    padding: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+
+}
+
+.text {
+    color: #fff;
+    font-size: xx-large;
+}
+
+.text1 {
+    font-size: 24px;
+    /* opacity: 80%; */
+}
+
+.name {
+    font-size: 32;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.text2 {
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* opacity: 50%; */
+}
+
+.my-image {
+    height: 350px;
+    border-radius: 50%;
+}
+
+/* start about css*/
+
+.about {
+    position: static;
+    height: 100Vh;
+    color: #fff;
+    background-color: #24262b;
+    font-size: x-large;
+}
+
+.about-title {
+    padding-top: 10px;
+}
+
+.about-text {
+    border-radius: 20px;
+    background-color: #788475;
+
+}
+
+/* about paragraph */
+
+.abt {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* cv and view more buttons */
+
+.btn {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cv {
+    background: #140F2D;
+    width: 80%;
+    height: 60px;
+    color: #fff;
+    font-size: large;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: bold;
+    border-style: none;
+    margin: 20% 0% 20% 20%;
+}
+
+.cv:hover {
+    background: #02A9EA;
+    transition: all 0.3s ease;
+    border-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*  end of cv and view more buttons */
+
+.about-t-b {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+    margin: 5% 10% 0% 10%;
+    font-size: 28px;
+
+}
+
+.myskills {
+    text-transform: capitalize;
+    align-items: center;
+    text-align: center;
+    font-size: 60px;
+    padding: 40px 0px;
+}
+
+.skills {
+    font-size: 60px;
+}
+
+.about-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 60%;
+    height: 10vh;
+}
+
+.single-icon {
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+}
+
+
+/* end of about css */
+
+.services {
+    height: 110vh;
+
+    /* background-color: #000; */
+    color: #fff;
+}
+
+.service {
+    padding-top: 80px;
+    font-size: 56px;
+}
+
+.service-cards {
+    position: static;
+    margin: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.service-card {
+    background-color: #788475;
+    height: 200px;
+    width: 220px;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-bottom: 35PX;
+}
+
+.service-card-image {
+    border-radius: 20px 20px 0 0;
+    width: 220px;
+    height: 160px;
+}
+
+.service-text {
+    text-align: center;
+    font-size: larger;
+}
+
+.contact {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("images/contact-me.jpg") no-repeat center center;
+    z-index: 4;
+}
+
+.contact-image {
+    display: none;
+}
+
+form {
+    width: 90%;
+    max-width: 500px;
+    padding: 50px 30px 20px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    position: relative;
+    opacity: 90%;
+}
+
+.fa-paper-plane {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    font-size: 26px;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+input {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    position: static;
+}
+
+input label {
+    flex-basis: 28%;
+}
+
+input,
+textarea {
+    flex-basis: 68%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #999;
+    color: #333;
+    font-size: 16px;
+    width: 90%;
+}
+
+::placeholder {
+    font-size: 14px;
+}
+
+span {
+    color: #e91e63;
+    font-size: 14px;
+}
+
+span i {
+    color: seagreen;
+}
+
+button[type="submit"] {
+    background: #140F2D;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    padding: 10px 40px;
+    outline: 0;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto 10px;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+button[type="submit"]:hover {
+    color: rgb(255, 255, 255);
+    background-color: #02A9EA;
+}
+
+.container1 {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    height: 40vh;
+    background-color: #24262b;
+    padding: 30px 0px 0px 0px;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer h4 {
+    font-size: 18px;
+    color: #ffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffff;
+}
+
+.copyright {
+    text-transform: capitalize;
+    letter-spacing: 0.25rem;
+    color: #fff;
+    padding: 30px 25%;
+}
+
+.nav-toggle {
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+/*Whatsapp button*/
+
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1000;
+}
+
+.whatsapp-icon {
+    margin-top: 16px;
+}
+
+@media (max-width: 925px) {
+
+    .nav {
+        background-color: #24262b;
+        margin: auto;
+        position: fixed;
+    }
+
+    label.logo {
+        font-size: 24px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+        margin: 10px 20px;
+    }
+
+    .home {
+        padding-top: 80px;
+        height: 100vh;
+    }
+
+    .container {
+        padding: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: left;
+
+    }
+
+    .text {
+        color: #fff;
+        font-size: xx-large;
+    }
+
+    .text1 {
+        font-size: 24px;
+        /* opacity: 80%; */
+    }
+
+    .name {
+        font-size: 32;
+        font-weight: bold;
+        line-height: 1;
+    }
+
+    .text2 {
+        font-size: 24px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        /* opacity: 50%; */
+    }
+
+    my-image {
+        border-radius: 50%;
+    }
+
+    .about {
+        position: static;
+        height: 130Vh;
+        color: #fff;
+        background-color: #24262b;
+        font-size: large;
+    }
+
+    .about-text {
+        border-radius: 20px;
+        background-color: #788475;
+        position: static;
+        margin: 10%;
+        font-size: 24px;
+    }
+
+    .abt {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .btn {
+        width: 40%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .about-t-b {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        position: static;
+        margin: 5% 10% 0% 10%;
+        font-size: 28px;
+
+    }
+
+    .cv {
+        background: #140F2D;
+        width: 40%;
+        height: 60px;
+        color: #fff;
+        font-size: large;
+        text-transform: uppercase;
+        border-radius: 5px;
+        font-weight: bold;
+        border-style: none;
+        margin: 20% 0% 20% 20%;
+    }
+
+    .cv {
+        background: #140F2D;
+        width: 80%;
+        height: 60px;
+        color: #fff;
+        font-size: large;
+        text-transform: uppercase;
+        border-radius: 5px;
+        font-weight: bold;
+        border-style: none;
+        margin: 2% 0% 2% 2%;
+    }
+
+    .myskills {
+        font-size: large;
+    }
+
+    .about-images {
+        max-width: 70%;
+    }
+
+    .single-icon {
+        height: 40px;
+        width: 40px;
+        border-radius: 10px;
+    }
+
+    .services {
+        height: 110vh;
+
+        /* background-color: #000; */
+        color: #fff;
+    }
+
+    .service {
+        font-size: 36px;
+    }
+
+    .service-cards {
+        position: static;
+        margin: 10%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .service-card {
+        background-color: #788475;
+        height: 200px;
+        width: 230px;
+        border-radius: 20px;
+        margin-left: 15px;
+        margin-bottom: 35PX;
+    }
+
+    .service-card-image {
+        border-radius: 20px 20px 0 0;
+        width: 230px;
+        height: 160px;
+    }
+
+    .service-text {
+        text-align: center;
+        font-size: larger;
+    }
+
+    .contact {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url("images/contact-me.jpg") no-repeat center center;
+        z-index: 4;
+    }
+
+    .contact-image {
+        display: none;
+    }
+
+    .contact form {
+        width: 90%;
+        max-width: 500px;
+        padding: 50px 30px 20px;
+        background: #fff;
+        border-radius: 4px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+        position: relative;
+    }
+
+    .fa-paper-plane {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        font-size: 26px;
+        padding: 20px;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    }
+
+    input {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+        position: static;
+    }
+
+    input label {
+        flex-basis: 28%;
+    }
+
+    input,
+    textarea {
+        flex-basis: 68%;
+        background: transparent;
+        border: 0;
+        outline: 0;
+        padding: 10px 0;
+        border-bottom: 1px solid #999;
+        color: #333;
+        font-size: 16px;
+        width: 90%;
+    }
+
+    ::placeholder {
+        font-size: 14px;
+    }
+
+    span {
+        color: red;
+        font-size: 14px;
+    }
+
+    span i {
+        color: seagreen;
+    }
+
+    button[type="submit"] {
+        background: #140F2D;
+        color: #fff;
+        border-radius: 4px;
+        border: 1px solid rgba(255, 255, 255, 0.7);
+        padding: 10px 40px;
+        outline: 0;
+        cursor: pointer;
+        display: block;
+        margin: 30px auto 10px;
+    }
+
+    .footer {
+        height: 90vh;
+    }
+
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+@media (max-width: 667px) {
+    .nav-toggle {
+        display: block;
+        margin-right: 35px;
+    }
+
+
+    .nav-center {
+        position: fixed;
+        width: 100%;
+        max-width: 1170px;
+        margin: 0 auto;
+        background: #24262b;
+
+    }
+
+    .nav-header {
+        display: block;
+
+    }
+
+    .nav-toggle {
+        background: transparent;
+        border: transparent;
+        font-size: 1.5rem;
+        color: #fff;
+        cursor: pointer;
+        transition: all 0.3s linear;
+        ;
+    }
+
+    .nav-toggle:hover {
+        transform: scale(1.2);
+    }
+
+    .nav-link {
+        display: block;
+        width: 80vw;
+        padding: 1rem 2rem;
+        text-transform: capitalize;
+        letter-spacing: 0.25rem;
+        transition: all 0.3s linear;
+        ;
+        color: #fff;
+        align-items: center;
+        text-align: center;
+        cursor: pointer;
+        font-size: 1.5rem;
+    }
+
+    /* 280px */
+    .nav-links {
+        margin: 0;
+        height: 0;
+        overflow: hidden;
+        transition: all 0.3s linear;
+    }
+
+    .show-links {
+        display: block;
+        height: 100vh;
+        width: 100%;
+        background: #24262b;
+    }
+
+    .home {
+        height: 150vh;
+    }
+
+    .container {
+        padding: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: left;
+        flex-wrap: wrap;
+
+    }
+
+    .text {
+        color: #fff;
+        font-size: xx-large;
+    }
+
+    .text1 {
+        font-size: 24px;
+        /* opacity: 80%; */
+    }
+
+    .name {
+        font-size: 32;
+        font-weight: bold;
+        line-height: 1;
+    }
+
+    .text2 {
+        font-size: 24px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        /* opacity: 50%; */
+    }
+
+    .my-image {
+        border-radius: 50%;
+    }
+
+    .about {
+        position: static;
+        height: 100Vh;
+        color: #fff;
+        background-color: #24262b;
+        font-size: large;
+    }
+
+    .about-text {
+        border-radius: 20px;
+        background-color: #788475;
+        position: static;
+        margin: 8%;
+        font-size: 18px;
+    }
+
+    .abt {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .cv {
+        background: #140F2D;
+        width: 80%;
+        height: 60px;
+        color: #fff;
+        font-size: large;
+        text-transform: uppercase;
+        border-radius: 5px;
+        font-weight: bold;
+        border-style: none;
+        margin: 2% 0% 2% 2%;
+    }
+
+    .myskills {
+        font-size: large;
+    }
+
+    .about-images {
+        max-width: 90%;
+    }
+
+    .single-icon {
+        height: 40px;
+        width: 40px;
+        border-radius: 10px;
+    }
+
+    .services {
+        height: 200vh;
+
+        margin: 10px;
+        /* background-color: #000; */
+        color: #fff;
+    }
+
+    .service {
+        font-size: 36px;
+    }
+
+    .service-cards {
+        position: static;
+        margin: 10% 15%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .service-card {
+        background-color: #788475;
+        height: 200px;
+        width: 250px;
+        border-radius: 20px;
+        margin-left: 15px;
+        margin-bottom: 35PX;
+    }
+
+    .service-card-image {
+        border-radius: 20px 20px 0 0;
+        width: 250px;
+        height: 160px;
+    }
+
+    .service-text {
+        text-align: center;
+        font-size: larger;
+    }
+
+    .contact {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url("images/contact-me.jpg") no-repeat center center;
+        z-index: 4;
+    }
+
+    .contact-image {
+        display: none;
+    }
+
+    .contact form {
+        width: 90%;
+        max-width: 500px;
+        padding: 50px 30px 20px;
+        background: #fff;
+        border-radius: 4px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+        position: relative;
+    }
+
+    .fa-paper-plane {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        font-size: 26px;
+        padding: 20px;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    }
+
+    input {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+        position: static;
+    }
+
+    input label {
+        flex-basis: 28%;
+    }
+
+    input,
+    textarea {
+        flex-basis: 68%;
+        background: transparent;
+        border: 0;
+        outline: 0;
+        padding: 10px 0;
+        border-bottom: 1px solid #999;
+        color: #333;
+        font-size: 16px;
+        width: 90%;
+    }
+
+    ::placeholder {
+        font-size: 14px;
+    }
+
+    span {
+        color: red;
+        font-size: 14px;
+    }
+
+    span i {
+        color: seagreen;
+    }
+
+    button[type="submit"] {
+        background: #140F2D;
+        color: #fff;
+        border-radius: 4px;
+        border: 1px solid rgba(255, 255, 255, 0.7);
+        padding: 10px 40px;
+        outline: 0;
+        cursor: pointer;
+        display: block;
+        margin: 30px auto 10px;
+    }
+
+    .footer {
+        height: 135vh;
+    }
+
+    .footer-col {
+        width: 100%;
+    }
+
+    .footer h4 {
+        font-size: 18px;
+        color: #ffff;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-weight: 500;
+        z-index: 1;
+    }
+
+    .footer h4::before {
+        bottom: -10px;
+        background-color: #e91e63;
+        height: 2px;
+        display: static;
+        z-index: 1;
+    }
+
+    .copyright {
+        text-transform: capitalize;
+        letter-spacing: 0.1rem;
+        color: #fff;
+        padding: 10px 3%;
+        font-size: small;
+    }
+
+    /*Whatsapp button*/
+
+    .whatsapp-float {
+        width: 50px;
+        height: 50px;
+        bottom: 20px;
+        right: 20px;
+        font-size: 25px;
+    }
+
+    .whatsapp-icon {
+        margin-top: 12px;
+    }
+
+}
+
+/* WhatsApp button */
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    top: 10px;
+    /* Adjust as needed */
+    left: 10px;
+    /* Adjust as needed */
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1000;
+}
+
+.whatsapp-icon {
+    margin-top: 16px;
+}
